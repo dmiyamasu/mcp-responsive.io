@@ -114,4 +114,4 @@ async def search_content(keyword: str, approvers: List[str] = [], businessUnits:
 
 
 if __name__ == "__main__":
-    mcp.run(transport='sse')
+    mcp.run(transport='stdio')
